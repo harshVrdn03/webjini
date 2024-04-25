@@ -5,7 +5,7 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Rahul Gupta    ",
+    name: "Rahul Gupta",
     designation: "",
     content:
       "Impressed with WebJini's professionalism and expertise. They transformed my website into a stunning platform that perfectly reflects my brand. Highly recommend!",
@@ -17,7 +17,7 @@ const testimonialData: Testimonial[] = [
     name: "Priya Sharma",
     designation: "",
     content:
-      "Pleasure working with [Your Company Name]! They created a beautiful and functional mobile app that exceeded my expectations. Thank you!",
+      "Pleasure working with WebJini! They created a beautiful and functional mobile app that exceeded my expectations. Thank you!",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
@@ -26,7 +26,7 @@ const testimonialData: Testimonial[] = [
     name: "Rajesh Patel",
     designation: "",
     content:
-      "Thanks to [Your Company Name]'s outstanding SEO services, my website now ranks higher, driving more traffic. Highly recommend their strategic approach!",
+      "Thanks to WebJini's outstanding SEO services, my website now ranks higher, driving more traffic. Highly recommend their strategic approach!",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,12 +37,12 @@ const Testimonials = () => {
     <section className="relative z-10 bg-gray-light py-16 dark:bg-bg-color-dark md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="What Our clients Says"
+          paragraph=" Hear success stories from satisfied WebJini clients. From web design to SEO, our solutions make an impact."
           center
         />
 
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
+        <div className="  grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           {testimonialData.map((testimonial) => (
             <SingleTestimonial key={testimonial.id} testimonial={testimonial} />
           ))}
