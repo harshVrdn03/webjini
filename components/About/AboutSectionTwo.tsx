@@ -40,7 +40,7 @@ const AboutSectionTwo = () => {
                   SEO Optimization
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Advanced SEO strategies to improve your websit's e visibility,
+                  Advanced SEO strategies to improve your website visibility,
                   drive organic traffic, and enhance your online presence.
                 </p>
               </div>
